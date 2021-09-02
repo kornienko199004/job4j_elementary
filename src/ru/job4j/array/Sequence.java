@@ -13,8 +13,8 @@ public class Sequence {
         array[2][1] = 8;
         array[2][2] = 9;
 
-        for (int x = 0; x < 3; x += 1) {
-            for (int y = 0; y < 3; y += 1) {
+        for (int x = 0; x < array.length; x += 1) {
+            for (int y = 0; y < array[x].length; y += 1) {
                 System.out.println(array[x][y]);
             }
         }
